@@ -1,0 +1,6 @@
+framework module Pods_Graphic_Components {
+  umbrella header "Pods-Graphic Components-umbrella.h"
+
+  export *
+  module * { export * }
+}

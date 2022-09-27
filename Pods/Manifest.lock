@@ -1,0 +1,37 @@
+PODS:
+  - BetterSegmentedControl (2.0.1)
+  - Charts (4.0.3):
+    - Charts/Core (= 4.0.3)
+  - Charts/Core (4.0.3):
+    - SwiftAlgorithms (~> 1.0)
+  - DropDown (2.3.13)
+  - SwiftAlgorithms (1.0.0)
+  - TinyConstraints (4.0.2)
+
+DEPENDENCIES:
+  - BetterSegmentedControl (~> 2.0)
+  - Charts (from `./Charts`)
+  - DropDown (= 2.3.13)
+  - TinyConstraints
+
+SPEC REPOS:
+  trunk:
+    - BetterSegmentedControl
+    - DropDown
+    - SwiftAlgorithms
+    - TinyConstraints
+
+EXTERNAL SOURCES:
+  Charts:
+    :path: "./Charts"
+
+SPEC CHECKSUMS:
+  BetterSegmentedControl: 09607b27861d49cbce48b7673b74f9150a3d371a
+  Charts: e25d63861a7b009ce31c68515d31f47ba5a6bd29
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+  TinyConstraints: 7b7ccc0c485bb3bb47082138ff28bc33cd49897f
+
+PODFILE CHECKSUM: d8b0dfa7570132201c6f42d3100da1d42ec929b5
+
+COCOAPODS: 1.11.3
